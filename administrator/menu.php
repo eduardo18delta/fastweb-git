@@ -95,7 +95,7 @@ require 'login/check.php';
 </div>
 
 <div class="col-xs-6 col-md-3" style="text-align:center;">
-   <a class="thumbnail" href="login/logout.php" title="Sair do Sistema"><img src="img/logout.png">Sair</a>
+   <a class="thumbnail" href="login/logout.php" title="Sair do Sistema"><img src="img/logout.png">Sair do Sistema</a>
 </div>
 </div>
 

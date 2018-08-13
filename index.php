@@ -5,5 +5,5 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/fastweb/supermercado/');
+	header('Location: '.$uri.'/fastweb-git/supermercado/');
 	exit;
