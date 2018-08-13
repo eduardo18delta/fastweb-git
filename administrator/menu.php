@@ -107,7 +107,7 @@ require 'login/check.php';
 
 <div class="navbar navbar-inverse navbar-fixed-bottom footer1">
 	<div class="footer-class" style="color: white; padding-top:10px; text-align:center;">
-	<p>© 2018 todos os direitos reservados | <a href="http://localhost/fastweb/supermercado/" target="_blank">Fast Web</a> </p>
+	<p>© 2018 todos os direitos reservados | <a href="ttp://127.0.0.1/fastweb-git/supermercado/" target="_blank">Fast Web</a> </p>
 	</div>
 </div>
 
