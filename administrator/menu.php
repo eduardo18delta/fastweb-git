@@ -91,7 +91,7 @@ require 'login/check.php';
 </div>
 
 <div class="col-xs-6 col-md-3" style="text-align:center;">
-   <a class="thumbnail" href="users/index.php" title="Gerenciamento de Usuários"><img src="img/user_system.png">Users Sistemas</a>
+   <a class="thumbnail" href="users/index.php" title="Gerenciamento de Usuários"><img src="img/user_system.png">Users Sistema</a>
 </div>
 
 <div class="col-xs-6 col-md-3" style="text-align:center;">
