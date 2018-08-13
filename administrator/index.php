@@ -32,7 +32,7 @@
 <a class="link" href="#">Esqueceu sua senha?</a>
 
 <input class="log-btn" type="submit" value="Login"><br><br>
-<a class="log-btn" href="http://localhost/fastweb/supermercado/">Home</a> 
+<a class="log-btn" href="http://127.0.0.1/fastweb-git/supermercado/">Home</a> 
 
 </div>
 </form>
