@@ -19,7 +19,7 @@ require 'login/check.php';
 <meta name="keywords" content="sistema,PDV,desenvolvimento,gestão"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>Fast Web - Edu</title>
+<title>Fast Web - Admin</title>
 
 <link rel="shortcut icon" href="img/shortcut/pdv.png"/>
 <link rel="stylesheet" href="content/css/menu.css"/>
