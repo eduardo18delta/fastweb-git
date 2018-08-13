@@ -1,0 +1,400 @@
+  
+main{
+	padding:0;
+	margin:0;
+	font-family: arial, verdana, sans-serif;
+}
+* {
+	box-sizing: border-box;
+}		
+body {
+    padding: 0px;
+    margin: 0px; 
+    background-color: #99abb5; 
+    width: 100%;
+     font-family: arial, verdana, sans-serif;
+}
+
+header{
+	height: 160px;
+	background-color: #2b5167;
+}
+/*MENU - INICIO*/
+
+br { 
+	clear:left }
+
+.menu_simple {
+    width: 100%;
+    background-color: #2c2d2d;
+}
+
+.menu_simple ul {
+    margin: 0; padding: 0;
+    float: left;
+    background-color:#2c2d2d;
+    width: 100%;
+}
+
+.menu_simple ul li {
+    display: inline;
+}
+
+.menu_simple ul li a {
+    float: left; 
+    text-decoration: none;
+    color: white; 
+    padding: 19px 11px;
+    background-color:  #2c2d2d;
+}
+ 
+.menu_simple ul li a:visited {
+    color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+    color: white;
+    background-color: #afaeae;
+}
+
+#logo{
+	width: 400px;
+	height: 95px;
+}
+
+#info_gerais{
+	margin: 9px ;
+	width: 98%;
+	height: 180px;
+	background-color: #ffffff;
+	padding: 10px;
+	
+}
+
+#info_unidade{
+	margin: 9px ;
+	width: 98%;
+	height: 180px;
+	background-color:#ffffff;
+	padding: 8px;
+	font-family: arial;
+	font-size:18px;
+	clear:both;
+
+}
+
+#listprod{
+	width: 100%;
+	height: 250px;
+	background-color:#ffffff;
+	padding: 5px;
+	font-family: arial;
+	font-size: 15px;
+	overflow: auto;
+}
+article{
+	width: 65%;
+	margin: 0;
+	display: inline-block;
+	border: 
+
+}
+
+aside{
+	padding-top: 9px;
+	display: inline-block;
+	float: right;
+	width: 35%;
+	height: 389px;
+	}
+
+#valor{
+	margin-top: 9px;
+	clear: both;
+	width: 100%;
+	height: 110px;
+	background: black;
+	font-size: 19px;
+	color: white;
+	font-family: arial;
+	padding: 5px;
+
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    position: absolute;
+    background: transparent;
+    text-align: center;
+    background-color:  #2b5167;
+    padding: 35px;
+}
+
+input[type="codigo"]{
+	padding:10px;
+	width: 100%;
+	margin-bottom: 15px;
+	font-size: 17px;
+}
+input[type="qtd"]{
+	padding: 13px;
+	width: 281px;
+	font-size: 17px;
+}
+
+input[type="preco"]{
+	padding: 13px;
+	width: 281px;
+	font-size: 17px;
+}
+
+input[type="total"]{
+	padding: 13px;
+	width: 180px;
+	font-size: 17px;
+}
+.infogerais{
+	display: inline-block;
+}
+
+#loginmenu {
+    padding: 14px 35px;
+    background: #3CB371; 
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#fotoproduto1{
+	width: 160px;
+	height: 160px;
+	background-color: #c0c0c0 ;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	padding: 8px;
+}
+
+#remover{
+	 padding: 7px 15px;
+    background: #3CB371; 
+    color: white; 
+    text-decoration: none;
+    font-size: 15px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	display: inline-block;
+	margin:0;
+	padding:0;
+}
+
+#infogerais{
+	margin-left: 5px;
+	width: 100%;
+	height: 160px;
+	text-align: left;
+}
+
+p{
+	padding: 0px;
+	margin:0px;
+	text-align: left;
+	margin-top: 4px;
+}
+
+#coca{
+	width: 140px;
+	height: 140px;
+}
+
+
+/*botao de add pdv*/
+
+#button_add{
+	margin-left: 28px;
+}
+
+
+#info_prod{
+	float: left;
+	width:50%;
+	height: 170px;
+}
+#info_cliente{
+	float: right;
+	width:50%;
+	height: 170px;
+}
+
+#add_cliente{
+	position: absolute;
+	top: 240px;
+	left: 810px;
+}
+#restrito{
+	display: none;
+}
+
+/* @media para css responsivo */ 
+
+@media screen and (min-width: 100px) and (max-width: 1185px){
+     
+* {
+	box-sizing: border-box;
+}		
+body {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+}
+
+#restrito{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+
+header{
+display: none;
+}
+/*MENU - INICIO*/
+
+br { 
+display: none;}
+
+.menu_simple {
+display: none;
+}
+
+.menu_simple ul {
+display: none;
+}
+
+.menu_simple ul li {
+display: none;
+}
+
+.menu_simple ul li a {
+display: none;
+}
+ 
+.menu_simple ul li a:visited {
+display: none;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+display: none;
+}
+
+#logo{
+display: none;
+}
+
+#info_gerais{
+display: none;
+	
+}
+
+#info_unidade{
+display: none;
+
+}
+
+#listprod{
+display: none;
+}
+article{
+display: none;
+
+}
+
+aside{
+display: none;
+	}
+
+#valor{
+display: none;
+
+}
+
+footer {
+display: none;
+}
+
+input[type="codigo"]{
+display: none;
+}
+input[type="qtd"]{
+display: none;
+}
+
+input[type="preco"]{
+display: none;
+}
+
+input[type="total"]{
+display: none;
+}
+.infogerais{
+display: none;
+}
+
+#loginmenu {
+display: none;
+}
+
+#fotoproduto1{
+display: none;
+}
+
+#remover{
+display: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+display: none;
+}
+
+#infogerais{
+display: none;
+}
+
+p{
+display: none;
+}
+
+#coca{
+display: none;
+}
+
+
+/*botao de add pdv*/
+
+#button_add{
+display: none;
+}
+
+
+#info_prod{
+display: none;
+}
+#info_cliente{
+display: none;
+}
+
+#add_cliente{
+display: none;
+}
+
+
+}
+

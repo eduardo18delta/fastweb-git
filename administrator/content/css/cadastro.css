@@ -1,0 +1,13 @@
+#main {
+  margin-top: 50px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;   
+    font-family: arial, verdana, sans-serif;
+    background-image: url(background/fundo.jpg);
+    background-color: gray;
+    background-size: 100% 3000px;
+    background-repeat: no-repeat;
+}
