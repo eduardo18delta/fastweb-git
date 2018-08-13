@@ -66,7 +66,7 @@ require 'login/check.php';
 
 <div class="row">
   <div class="col-xs-6 col-md-3" style="text-align:center;">
-   <a href="cliente/index.php" class="thumbnail" title="Cadastro Cliente"><img src="img/list_client.png">Lista de Cliente</a>
+   <a href="cliente/index.php" class="thumbnail" title="Cadastro Cliente"><img src="img/list_client.png">Clientes</a>
 </div>
 
 <div class="col-xs-6 col-md-3" style="text-align:center;">
