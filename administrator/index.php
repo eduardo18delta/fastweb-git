@@ -4,8 +4,8 @@
 <head>
 
 <meta charset="utf-8"/>
-<meta name="author" content="Projeti- Faculdade Meta"/>
-<meta name="description" content="Minha Loja - sistema de gestão"/>
+<meta name="author" content="Eduardo Henrique"/>
+<meta name="description" content="FastWeb - SupermercadoWeb"/>
 <meta name="keywords" content="sistema,PDV,desenvolvimento,gestão"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
