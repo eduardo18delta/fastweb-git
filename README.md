@@ -1,8 +1,6 @@
 # fastweb-git
 
-Projeto feito para a disciplina de Projeti na Faculdade Meta.
-
-Sistema desenvolvido para gestão administrativa de um supermercado online.
+Sistema desenvolvido para gestão administrativa de um supermercado online, com: cadastro de produtos, gestão de estoque, cadastro de usuários, relatórios gerenciais e um portal do cliente.
 
 INSTALAÇÃO
 
