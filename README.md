@@ -7,4 +7,4 @@ Sistema desenvolvido para gestão administrativa de um supermercado online.
 INSTALAÇÃO
 
 - Baixe os arquivos em zip ou clone o projeto para seu servidor local. 
-- Baixe o arquivo "supermercado.sql" e crie um BD com esse mesmo nome(O padrão de conexão é - Host: 127.0.0.1 , Dbname: supermercado, Password; vazia);
+- Use o arquivo "supermercado.sql" e crie um BD com esse mesmo nome(O padrão de conexão é - Host: 127.0.0.1 , Dbname: supermercado, Password; vazia);
