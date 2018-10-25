@@ -6,6 +6,7 @@
     <?php
       include 'menu.php';
       include 'slide.php';
+      include 'conteudo.php';
     ?>
   </body>
 </html>

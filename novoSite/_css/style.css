@@ -7,16 +7,16 @@
   background-color:#000;
   /* height:50px; */
   color:#fff;
-  height:60px;
+  /* height:40px; */
 }
 .submenu{
-  background-color:rgb(208, 209, 209);
+  background-color:rgb(242, 242, 242);
 }
 .pesquisar{
   border-radius:0px 5px 5px 0px;
   background-color:rgb(184, 46, 46);
   color:#fff;
-  width:50px;
+  width:40px;
   /* margin-top:2px; */
 }
 .buscar{
