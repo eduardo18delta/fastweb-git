@@ -1,3 +1,5 @@
+<!--CSS LOCAL-->
+<link rel="stylesheet" type="text/css" href="_css/style.css"/>
 <!--JQUERY-->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <!--BOOTSTRAP-->
@@ -12,7 +14,5 @@
 <script src="_script/plugins/simpleslider.js"></script>
 <!--JQUERY (PLUGIN CYCLE LOCAL)-->
 <script src="_script/plugins/cycle.js"></script>
-<!--CSS LOCAL-->
-<link rel="stylesheet" type="text/css" href="_css/style.css"/>
 <!--SCRIPT LOCAL-->
 <script src="_script/javascript.js"></script>

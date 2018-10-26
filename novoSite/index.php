@@ -7,6 +7,7 @@
       include 'menu.php';
       include 'slide.php';
       include 'conteudo.php';
+      include 'rodape.php';
     ?>
   </body>
 </html>
