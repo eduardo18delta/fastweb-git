@@ -3,7 +3,7 @@
   color:rgb(185, 29, 29);
 }
 .bordaCima{
-  border-top:1px solid #000;
+  border-top:1px solid rgb(207, 207, 207);
 }
 .bor{
   border:1px solid #000;

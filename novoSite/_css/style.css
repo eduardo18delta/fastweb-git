@@ -1,11 +1,17 @@
 *{
   margin:0;
   border:0;
+  padding:0;
+  box-sizing:border-box;
 }
+@media(min-width:600px){
 /*============CSS menu.php=========*/
+.barrasResp, .respSearch, .respFast{
+  display:none;
+}
 .menu{
   background-color:#000;
-  /* height:50px; */
+  height:50px;
   color:#fff;
   /* height:40px; */
 }
@@ -17,6 +23,7 @@
   background-color:rgb(184, 46, 46);
   color:#fff;
   width:40px;
+  cursor:pointer;
   /* margin-top:2px; */
 }
 .buscar{
@@ -47,13 +54,13 @@
 /*========FIM CSS menu.php===========*/
 
 /*===========SLIDE================*/
-#slide{
-  /* border:1px solid red; */
+/*#slide{
+  border:1px solid red;
   height:500px;
   width:100%;
   background-color:#000;
   position:relative;
-}
+}*/
 #bLeft, #bRight{
   /* position:absolute; */
   z-index:5;
@@ -125,3 +132,62 @@
 /*==========CONTEUDO.PHP=========*/
 
 /*==========FIM COTEUDO==========*/
+}
+
+/*=============RESPONSIVIDADE==========*/
+@media (max-width:600px) {
+/*=====MENU RESPONSIVO=====*/
+  .menu{
+    background-color:#000;
+    height:50px;
+    color:#fff;
+    /* height:40px; */
+  }
+  .logo{
+    display:none;
+  }
+  .respDisplay{
+    display:none;
+  }
+  .respFast{
+
+  }
+  .respWeb{
+    color:red;
+  }
+  .submenu{
+
+  }
+  .barrasResp{
+
+  }
+  .pesquisar{
+    display:none;
+  }
+  #linkUser{
+
+  }
+  .cadLogin{
+
+  }
+  #carrinhoLogo{
+    width:25px;
+  }
+  .respSearch{
+    margin-right:-45px;
+  }
+  #divCarrinho{
+    margin-right:15px;
+  }
+  #linkCarrinho{
+    color:#fff;
+  }
+  /*=====FIM RESPONSIVE MENU=====*/
+
+  /*===========SLIDE RESPONSIVE================*/
+  #slide{
+    display:none;
+  }
+  /* ========CSS RESPONSIVE DO SLIDE===========*/
+}
+/*===============FIM RESPONSIVIDADE=========*/

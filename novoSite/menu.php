@@ -3,22 +3,32 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <nav class="d-flex justify-content-between align-items-center menu">
-    <div class="p-2">
+    <div class="barrasResp">
+      <i class="fas fa-bars fa-2x ml-2"></i>
+    </div>
+    <div class="p-2 logo">
       <a href="#"><img src="_img/logo_redimencionada.png"/></a>
     </div>
-    <div class="col-6">
+    <div class="col-6 respDisplay">
       <form class="input-group align-middle buscar" >
         <input class="form-control buscar" type="text" placeholder="O que você procura?"/>
-        <span class="btn d-flex justify-content-center align-items-center pesquisar ">
+        <button type="submit" class="d-flex justify-content-center align-items-center pesquisar ">
           <i class='fas fa-search'></i>
-        </span>
+        </button>
       </form>
     </div>
-    <div class="d-flex align-items-center">
-      <a href="#" class="mr-2" id="linkUser"><i class="far fa-user-circle fa-2x"></i></a><span >Olá, visitante!</span>
+    <div class="d-flex align-items-center respDisplay">
+      <a href="#" class="mr-2 respDisplay" id="linkUser"><i class="far fa-user-circle fa-2x respDisplay"></i></a>
+      <span class="respDisplay">Olá, visitante!</span>
     </div>
-    <div class="d-flex align-items-center">
-      <a href="#" class="mr-1">CADASTRE-SE</a> | <a href="#" class="ml-1">LOGIN</a>
+    <div class="respFast">
+      Fast<span class="respWeb">Web</span>
+    </div>
+    <div class="d-flex align-items-center respDisplay">
+      <a href="#" class="mr-1 respDisplay">CADASTRE-SE</a> <span class="respDisplay">|</span> <a href="#" class="ml-1 respDisplay">LOGIN</a>
+    </div>
+    <div class="respSearch d-flex justify-content-center align-items-center">
+      <i class="fas fa-search respSearch"></i>
     </div>
     <div class="d-flex justify-content-center align-items-center" id="divCarrinho">
       <a href="#" id="linkCarrinho"><i class="fas fa-shopping-cart"></i></a>

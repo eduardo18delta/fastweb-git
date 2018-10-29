@@ -1,7 +1,7 @@
 <?php
   include 'links.php';
 ?>
-<main>
+<main id="slide">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
