@@ -34,6 +34,21 @@
       <a href="#" id="linkCarrinho"><i class="fas fa-shopping-cart"></i></a>
     </div>
   </nav>
+  <div class="menuLateral">
+    <div>
+      LOGIN
+    </div>
+  </div>
+  <div class="respCat">
+    <ul>
+      <li>Casa</li>
+      <li>limpeza</li>
+      <li>sss</li>
+      <li>ddd</li>
+      <li>fff</li>
+      <li>ggg</li>
+    </ul>
+  </div>
 <!--==============SUBMENU================-->
   <nav class="navbar navbar-expand-lg submenu">
     <button class="navbar-toggler" type="button" data-toggle="colapse" data-target="#navbarSite">

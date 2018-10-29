@@ -6,7 +6,7 @@
 }
 @media(min-width:600px){
 /*============CSS menu.php=========*/
-.barrasResp, .respSearch, .respFast{
+.barrasResp, .respSearch, .respFast, .menuLateral, .respCat{
   display:none;
 }
 .menu{
@@ -181,6 +181,19 @@
   }
   #linkCarrinho{
     color:#fff;
+  }
+  .menuLateral{
+    position:absolute;
+    width:35%;
+    height:600px;
+    background-color:#000;
+    color:#fff;
+    z-index:999;
+    display:none;
+  }
+  .respCat{
+    border:1px solid blue;
+    width:100%;
   }
   /*=====FIM RESPONSIVE MENU=====*/
 
