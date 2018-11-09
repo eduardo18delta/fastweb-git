@@ -1,0 +1,62 @@
+@media(min-width:601px){
+  .tituloProds{
+    color:rgb(185, 29, 29);
+  }
+  .bordaCima{
+    border-top:1px solid rgb(207, 207, 207);
+  }
+  .bor{
+    border:1px solid #000;
+  }
+  .btnMais{
+    margin-left:152px;
+    font-weight:bolder;
+  }
+  .prod{
+    height:220px;
+    border:1px solid rgb(207, 207, 207);
+  }
+  .fotoProd{
+    /* border:1px solid red; */
+    width:60%;
+    height:100%;
+    float:left;
+  }
+  .fotoProd img{
+    width:100%;
+    height:100%;
+  }
+  .infoProd{
+    width:40%;
+    height:100%;
+    /* border:1px solid blue; */
+    float:right;
+    position:relative;
+  }
+  .btnComprar{
+    position:absolute;
+    bottom:10px;
+    left:15%;
+  }
+  .preco{
+    color:rgb(236, 64, 64);
+    font-weight:bolder;
+    font-size:15pt;
+  }
+}
+/*====RESPONSIVE CSS====*/
+@media(max-width:600px) {
+  .bordaCima{
+    display:flex;
+  }
+  .prod{
+    border:1px solid rgb(207, 207, 207);
+    width:100px;
+  }
+  .fotoProd img{
+    width:100%;
+  }
+  .btnComprar{
+    display:none;
+  }
+}
