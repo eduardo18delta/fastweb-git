@@ -1,3 +1,5 @@
+<!--CSS LOCAL-->
+<link rel="stylesheet" type="text/css" href="_css/style.css"/>
 <!--JQUERY-->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <!--BOOTSTRAP-->
@@ -8,11 +10,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <!--FONTAWESOME (ICONES)-->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<!--JQUERY (PLUGIN SIMPLESLIDER LOCAL)-->
-<script src="_script/plugins/simpleslider.js"></script>
-<!--JQUERY (PLUGIN CYCLE LOCAL)-->
-<script src="_script/plugins/cycle.js"></script>
-<!--CSS LOCAL-->
-<link rel="stylesheet" type="text/css" href="_css/style.css"/>
 <!--SCRIPT LOCAL-->
 <script src="_script/javascript.js"></script>
